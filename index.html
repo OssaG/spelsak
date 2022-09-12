@@ -18,8 +18,10 @@
 </head>
   
 <body>
-<c>Gissanumbret </c> 
-  
+
+ 
+
+
 <p>We have selected a random number between 1 - 100. 
 See if you can guess it.</p>
   
@@ -29,7 +31,7 @@ See if you can guess it.</p>
     <input type = "submit" value = "Submit guess" 
            class = "guessSubmit" id = "submitguess">
 </div>
-  
+
 <script type = "text/javascript">
   
     // random value generated
@@ -46,21 +48,30 @@ See if you can guess it.</p>
   
    if(x == y)
    {    
-       alert("CONGRATULATIONS!!! YOU GUESSED IT RIGHT IN "
-               + guess + " GUESS ");
+       alert("Grattis broshan du gissade rätt på "
+               + guess + " försök");
    }
    else if(x > y) /* if guessed number is greater
                    than actual number*/ 
    {    
        guess++;
-       alert("OOPS SORRY!! TRY A SMALLER NUMBER");
+       alert("Vafan du får prova ett lägre nummer");
    }
    else
    {
        guess++;
-       alert("OOPS SORRY!! TRY A GREATER NUMBER")
+       alert("Lite högre")
    }
 }
 </script>
+</script>
+
+
+<script type = "text/javascript">
+
+
+
+</script>
+
 </body>
 </html>                    
